@@ -23,18 +23,16 @@
         position:relative;
         height:113px;
         width:273px;
-        background-image:url("Chillers.png");
+        background-image:url("/imgs/Chillers.png");
         background-size:100%;
         background-repeat: no-repeat;
     }
     .menu{
-        position:absolute;
         height:30px;
         min-width:750px;
         margin-top:42.5px;
         display:flex;
-        float:right;
-        right:1px;
+        margin-left:327px;
     }
     .menu li a{
         font-weight:bold;
@@ -54,7 +52,7 @@
     .products{
         width:100%;
         height:600px;
-        background-image:url(image\ 14\ \(1\).png);
+        background-image:url("/imgs/image\ 14\ \(1\).png");
         background-size:cover;
         background-repeat:no-repeat;
 }
@@ -117,9 +115,11 @@
     .container{
         width:100%;
         height:1700px;
-        background-image:url("image\ 14\ \(1\).png");
+        background-image:url("/imgs/image\ 14\ \(1\).png");
         background-repeat:no-repeat;
         background-size:cover;
+        position:relative;
+        padding-top:150px;
     }
     .where, .review, .contact{
         margin-bottom:47px;
@@ -142,7 +142,6 @@
         background-color:#4F4E56;
         width:773px;
         height:453px;
-        margin-top:150px;
     }
     .where img{
         size:100%;
@@ -158,5 +157,285 @@
         min-width:500px;
         height:442px;
         background-color:#4F4E56;
+        margin-bottom:47px;
+        padding-top:35px;
+    }
+    .reviewer{
+        width:340px;
+        height:75px;
+        display:flex;
+        margin-top:35px;
+        margin-left:60px;
+    }
+    .avatar{
+        width:75px;
+        height:75px;
+        border-radius:100%;
+        background-image:url("/imgs/Ellipse\ 1.png");
+        margin-top:17.5px;
+    }
+    .name p{
+        font-size:32px;
+        color:white;
+        margin-left:35px;
+        margin-top:35px;;
+        margin-bottom:0;
+    }
+    .msg{
+        max-width:770px;
+        min-width:300px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:40px;
+        min-height:200px;
+        max-height:227px;
+    }
+    .msg p{
+        font-size:36px;
+        color:white;
+        margin:auto;
+    }
+    .contact{
+        height:376px;
+        min-width:500px;
+        margin:auto;
+        background-color: #4F4E56;
+    }
+    .contact p{
+        font-size:48px;
+        font-weight:bold;
+        color:white;
+        height:56px;
+        margin-bottom:20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .contact-box{
+        width:926px;
+        height:140px;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top:65px;
+        text-align:center;
+    }
+}
+@media screen and (min-width:390px) and (max-width:880px) {
+    .wrapper{
+        width:100%;
+        min-height:200px;
+        margin:auto;
+    }
+    .header{
+        width:100%;
+        height:115px;
+        background-color: black;
+        display:flex;
+    }
+    .header-wrap{
+        min-width:390px;
+        max-width:880px;
+        height:115px;
+        margin:auto;
+        display:flex;
+    }   
+    .logo{
+        position:relative;
+        height:113px;
+        width:273px;
+        background-image:url("/imgs/Chillers.png");
+        background-size:50%;
+        background-repeat: no-repeat;
+    }
+    .menu{
+        height:30px;
+        min-width:750px;
+        max-width:880px;
+        margin-top:42.5px;
+        display:flex;
+        margin-left:327px;
+    }
+    .menu li a{
+        font-weight:bold;
+        font-size:20px;
+        line-height:30px;
+        display:block;
+        color:white;
+        text-decoration: none;
+    }
+    .menu li a:hover{
+        text-decoration:underline;
+    }
+    .menu li{
+        margin-right:46px;
+        display:inline-block;
+    }
+    .products{
+        width:100%;
+        height:600px;
+        background-image:url("/imgs/image\ 14\ \(1\).png");
+        background-size:cover;
+        background-repeat:no-repeat;
+}
+    .product-imgs{
+        min-height:200px;
+        max-height:400px;
+        min-width:400px;
+        max-width:800px;
+        margin-top:37px;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+    }
+    .product-imgs img{
+        margin-right:13px;
+        min-width:350px;
+        max-width:450px;
+    }
+    .product-txt p{
+        margin-right:160px;
+        font-size:40px;
+        color:white;
+        font-weight:500;
+        justify-content: center;
+        min-width:250px;
+    }
+    .product-txt{
+        margin:auto;
+        min-width:300px;
+        max-width:1050px;
+        display:flex;
+    }
+    .info{
+        width:1440px;;
+        background-color:#000000;
+        height:800px;
+        display:flex;
+        margin:auto;
+    }
+    .info-box{
+        width:720px;
+        height:800px;
+        background-color:#000000;
+        margin:auto;
+    }
+    .info-box p{
+        font-size:40px;
+        margin-left:5px;
+    }
+    .info-box h1, p{
+        margin-top:40px;
+        color:white;
+        max-width:708px;
+    }
+    .info-box h1{
+        font-size:64px;
+        font-weight:bold;
+        margin-left:207px;
+    }
+    .container{
+        width:100%;
+        height:850px;
+        background-image:url("/imgs/image\ 14\ \(1\).png");
+        background-repeat:no-repeat;
+        background-size:cover;
+        position:relative;
+        padding-top:150px;
+    }
+    .where, .review, .contact{
+        margin-bottom:47px;
+        max-width:1037px;
+        min-width:300px;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius:30px;
+    }
+    .where p, .container h1, .contact h1{
+        font-size:48px;
+        font-weight:bold;
+        color:white;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:0px;
+    }
+    .where{
+        background-color:#4F4E56;
+        width:773px;
+        height:453px;
+    }
+    .where img{
+        size:100%;
+    }
+    .review, .contact{
+        max-width:1036px;
+    }
+    .container h1{
+        margin-top:47px;
+        margin-bottom:47px;
+    }
+    .review{
+        min-width:500px;
+        height:442px;
+        background-color:#4F4E56;
+        margin-bottom:47px;
+        padding-top:35px;
+    }
+    .reviewer{
+        width:340px;
+        height:75px;
+        display:flex;
+        margin-top:35px;
+        margin-left:60px;
+    }
+    .avatar{
+        width:75px;
+        height:75px;
+        border-radius:100%;
+        background-image:url("/imgs/Ellipse\ 1.png");
+        margin-top:17.5px;
+    }
+    .name p{
+        font-size:32px;
+        color:white;
+        margin-left:35px;
+        margin-top:35px;;
+        margin-bottom:0;
+    }
+    .msg{
+        max-width:770px;
+        min-width:300px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:40px;
+        min-height:200px;
+        max-height:227px;
+    }
+    .msg p{
+        font-size:36px;
+        color:white;
+        margin:auto;
+    }
+    .contact{
+        height:376px;
+        min-width:500px;
+        margin:auto;
+        background-color: #4F4E56;
+    }
+    .contact p{
+        font-size:48px;
+        font-weight:bold;
+        color:white;
+        height:56px;
+        margin-bottom:20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .contact-box{
+        width:926px;
+        height:140px;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top:65px;
+        text-align:center;
     }
 }

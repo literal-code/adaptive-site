@@ -90,7 +90,7 @@ p, h1{
         margin:auto;
     }
     .info-box p{
-        font-size:40px;
+        font-size:36px;
         margin-left:5px;
         margin-bottom:20px;
         margin-top:20px;
@@ -278,7 +278,7 @@ p, h1{
     .product-txt p{
         margin-left:5%;
         margin-right:10%;
-        font-size:13px;
+        font-size:11px;
         color:white;
         font-weight:500;
         justify-content: center;
@@ -354,7 +354,7 @@ p, h1{
     .where{
         background-color:#4F4E56;
         width:200px;
-        height:200px;
+        height:130px;
     }
     .where img{
         width:200px;
@@ -411,27 +411,27 @@ p, h1{
         max-width:360px
     }
     .contact{
-        height:200px;
-        min-width:390px;
+        height:125px;
+        min-width:200px;
         max-width:600px;
         margin:auto;
         background-color: #4F4E56;
     }
     .contact p{
-        font-size:30px;
+        font-size:14px;
         font-weight:bold;
         color:white;
-        height:56px;
+        height:20px;
         margin-bottom:20px;
         margin-left:auto;
         margin-right:auto;
     }
     .contact-box{
-        width:390px;
-        height:140px;
+        width:200px;
+        height:100px;
         margin-left:auto;
         margin-right:auto;
-        padding-top:10px;
+        padding-top:15px;
         text-align:center;
     }
 }
@@ -492,7 +492,7 @@ p, h1{
         display:flex;
     }
     .product-imgs img{
-        margin-right:13px;
+        margin-right:10%;
         min-width:100px;
         max-width:450px;
         max-height:175px;
@@ -530,7 +530,7 @@ p, h1{
         margin:auto;
     }
     .info-box p{
-        font-size:17px;
+        font-size:15px;
         margin-left:5px;
     }
     .info-box h1, p{

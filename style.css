@@ -26,7 +26,7 @@ p, h1{
     .logo{
         height:113px;
         min-width:300px;
-        background-image:url("/imgs/Chillers.png");
+        background-image:url("imgs/Chillers.png");
         background-size:cover;
         margin:auto;
     }
@@ -40,7 +40,7 @@ p, h1{
     .products{
         width:100%;
         height:600px;
-        background-image:url("/imgs/image\ 14\ \(1\).png");
+        background-image:url("imgs/image\ 14\ \(1\).png");
         background-size:cover;
         background-repeat:no-repeat;
         padding-top:37px;
